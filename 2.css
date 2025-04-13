@@ -1,0 +1,17 @@
+body{
+    background-color:#8080ab;
+}
+
+.box{
+    margin: 50px;
+    width:400px; 
+    padding: 15px;
+    border:10x solid black;
+    background-color:#0bc3e7;
+}
+h1{
+    text-align: center;
+    background-color:rgb(61, 88, 106);
+    text-transform: uppercase;
+    border:5px solid black;
+}

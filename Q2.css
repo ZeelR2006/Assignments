@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100px;
+    height: 80px;
+    grid-template-areas:
+        "A B E"
+        "C D E"
+        "F G H"
+        "F I J"
+    ;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5px;
+}
+
+.itemA {
+    grid-area: A;
+    background-color: brown;
+}
+
+.itemB {
+    grid-area: B;
+    background-color: brown;
+}
+
+.itemC {
+    grid-area: C;
+    background-color: brown;
+}
+
+.itemD {
+    grid-area: D;
+    background-color: brown;
+}
+
+.itemE {
+    grid-area: E;
+    background-color: brown;
+}
+
+.itemF {
+    grid-area: F;
+    background-color: brown;
+}
+
+.itemG {
+    grid-area: G;
+    background-color: brown;
+}
+
+.itemH {
+    grid-area: H;
+    background-color: brown;
+}
+
+.itemI {
+    grid-area: I;
+    background-color: brown;
+}
+
+.itemJ {
+    grid-area: J;
+    background-color: rgb(246, 242, 242);
+
+}
